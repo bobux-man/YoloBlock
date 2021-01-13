@@ -25,6 +25,6 @@ class YoloBlock {
     };
     string_in({string1,string2}){
         return (temp.match(/`string2`/g) || []).length;
-    }
+    };
 };
 Scratch.extensions.register(new YoloBlock());
